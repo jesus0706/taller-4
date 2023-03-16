@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario #1</title>
+</head>
+<body>
+    <h1 align="center" cellpadding = "10">Zoo Keeper Application Form</h1>
+    <p><i>Please complete the form. Mandatory fields are marked with a *</i></p> <br>
+
+    
+    <fieldset>
+        <legend>Contact Details</legend> 
+
+        <table cellpadding="10">
+        <tr>
+        <td>Name *</td>
+        <td><input type="text"></td>
+        </tr> 
+        
+        <tr>
+        <td>Telephone</td>
+        <td><input type="number"></td> 
+        </tr>
+        
+        <tr>     
+        <td>Email *</td> 
+        <td><input type="email"></td> 
+        </tr>
+        </table>
+
+    </fieldset> <br>
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <table cellpanding="10">
+        <tr>
+        <td>*Age</td> 
+        <td><input type="number" id="number" name="number" min="18"></td>
+        </tr>
+         
+        <tr>
+        <td>Gender</td> 
+        <td><select> 
+            <option value="FL">Female</option>
+            <option value="Ml">Male</option></td>
+        </select>
+        </tr>
+        
+        <tr>
+        <td>When did you <br> first know you <br> wanted to be a <br> zoo-keeper?</td> 
+        <td><textarea name="" id="" cols="30" rows="10"></textarea></td> 
+        </tr> 
+        </table>
+         
+        
+    </fieldset> <br><br>
+
+    <fieldset>
+        <legend>Pick Your Favorite Animals</legend>
+
+        <table>
+        <tr>
+         <td><input type="checkbox" name=""> Zebra</td> 
+         <td><input type="checkbox" name=""> Cat</td> 
+         <td><input type="checkbox" name=""> Anaconda</td>
+         <td><input type="checkbox" name=""> Human</td> 
+         </tr>
+
+         <tr>
+         <td><input type="checkbox" name=""> Elephant</td> 
+         <td><input type="checkbox" name=""> Wildebeest</td>
+         <td><input type="checkbox" name=""> Pigeon</td>
+         <td><input type="checkbox" name=""> Crab</td>
+        </tr>
+        </table>
+    </fieldset>
+    <br><br>
+
+    <input type="button" value="Submit Aplication">
+        
+
+    
+
+</body>
+</html>
